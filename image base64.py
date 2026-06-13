@@ -1,7 +1,7 @@
 import base64
 
 # Remplacez par le chemin de votre fichier
-image_path = "chrome_screenshot.jpg" 
+image_path = "Chariot livraison bleu.jpg" 
 
 with open(image_path, "rb") as image_file:
     encoded_string = base64.b64encode(image_file.read()).decode('utf-8')
